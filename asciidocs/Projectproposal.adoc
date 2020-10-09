@@ -1,107 +1,1 @@
-= LeoDatabaseLearner - Project Proposal
-Steigersdorfer Marah, Turner Isabel, Primetzhofer Vanessa
-1.0.0, 2020-10-02: Some notes
-ifndef::imagesdir[:imagesdir: images]
-//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
-:sourcedir: ../src/main/java
-:icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-:toc: left
-
-//Need this blank line after ifdef, don't know why...
-ifdef::backend-html5[]
-
-// https://fontawesome.com/v4.7.0/icons/
-
-////
-icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/{docname}.adoc] ‏ ‏ ‎
-icon:github-square[link=https://github.com/htl-leonding-college/asciidoctor-docker-template] ‏ ‏ ‎
-icon:home[link=https://htl-leonding.github.io/]
-////
-endif::backend-html5[]
-
-
-// print the toc here (not at the default position)
-//toc::[]
-
-== Project title
-LeoDataBaseLearner
-
-== Problem definition / project trigger / preliminary project
-Students lose track of what they have learned over time.
-
-During a test, the teacher must check the SQL commands of the students individually for
-check the correctness, since there are basically several possible solutions
-are possible.
-
-Students ask teachers to constantly provide new exercises,
-However, this is usually not possible for the teachers due to lack of time.
-
-Checking the individual SQL statements is also possible for the teachers with
-high workload.
-
-== Task
-Development of a software product for students and teachers of the HTL Leonding.
-The system consists of 3 functions.
-Students can choose whether they want to practice, learn or be tested.
-
-The examination tasks can be created by teachers using the system.
-Afterwards an evaluation of the tasks should be done.
-
-Regarding the layout 3 modules should be shown:
-
-* Text/information
-* Coding
-* Evaluation
-
-The learning progress should be documented by a bar.
-
-== Requirements
-=== Functional requirements
-- Practice SQL
-- Determine performance by testing
-- Tests from teachers
-
-=== Non-functional requirements
-- Robustness of the application against user actions
-( BSP: Denial of SQL injections by the user )
-- fast feedback of the system
-== Project goals
-
-The aim is to make it easier for pupils to enter the HTL,
-by having such an exercise platform made available to them.
-
-It should also be a relief for teachers, as they will no longer
-have to create each exercise example yourself.
-
-There is also a uniformity of what has been learned.
-
-== Project phases / Milestones
-- Get to know technologies
-- Create data model
-- Surface
-- Upload exercises
-- Edit/delete exercises
-- Create inspection
-
-== Project start
-2.10.2020
-
-== Project end
-End of May 2021
-
-== Project resources
-==== Personnel:
-- Primetzhofer Vanessa (Project Manager)
-- Steigersdorf Marah
-- Turner Isabel
-- ( Donnabauer Christian )
-
-==== Material:
-- Database
-
-==== Other expenses:
-- a lot of time
-
-
-
+= LeoDatabaseLearner - Project ProposalSteigersdorfer Marah, Turner Isabel, Primetzhofer Vanessa1.0.0, 2020-10-02: Some notesifndef::imagesdir[:imagesdir: images]//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards:sourcedir: ../src/main/java:icons: font:sectnums:    // Nummerierung der Überschriften / section numbering:toc: left//Need this blank line after ifdef, don't know why...ifdef::backend-html5[]// https://fontawesome.com/v4.7.0/icons/////icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/{docname}.adoc] ‏ ‏ ‎icon:github-square[link=https://github.com/htl-leonding-college/asciidoctor-docker-template] ‏ ‏ ‎icon:home[link=https://htl-leonding.github.io/]////endif::backend-html5[]// print the toc here (not at the default position)//toc::[]== Project titleLeoDataBaseLearner== Problem definition / project trigger / preliminary projectStudents lose track of what they have learned over time.During a test, the teacher must check the SQL commands of the students individually forcheck the correctness, since there are basically several possible solutionsare possible.Students ask teachers to constantly provide new exercises,However, this is usually not possible for the teachers due to lack of time.Checking the individual SQL statements is also possible for the teachers withhigh workload.== TaskDevelopment of a software product for students and teachers of the HTL Leonding.The system consists of 3 functions.Students can choose whether they want to practice, learn or be tested.The examination tasks can be created by teachers using the system.Afterwards an evaluation of the tasks should be done.Regarding the layout 3 modules should be shown:* Text/information* Coding* EvaluationThe learning progress should be documented by a bar.== Requirements=== Functional requirements- Practice SQL- Determine performance by testing- Tests from teachers=== Non-functional requirements- Robustness of the application against user actions( BSP: Denial of SQL injections by the user )- fast feedback of the system== Project goalsThe aim is to make it easier for pupils to enter the HTL,by having such an exercise platform made available to them.It should also be a relief for teachers, as they will no longerhave to create each exercise example yourself.There is also a uniformity of what has been learned.== Project phases / Milestones- Get to know technologies- Create data model- Surface- Upload exercises- Edit/delete exercises- Create inspection== Project start2.10.2020== Project endEnd of May 2021== Project resources==== Personnel:- Primetzhofer Vanessa (Project Manager)- Steigersdorf Marah- Turner Isabel- ( Donnabauer Christian )==== Material:- Database==== Other expenses:- a lot of time
