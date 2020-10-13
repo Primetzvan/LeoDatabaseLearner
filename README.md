@@ -1,7 +1,9 @@
 # LeoDatabaseLearner
 
-https://github.com/Primetzvan/LeoDatabaseLearner
-https://primetzvan.github.io/LeoDatabaseLearner/projectproposal
+* https://github.com/Primetzvan/LeoDatabaseLearner
+* gh-pages  
+   * https://primetzvan.github.io/LeoDatabaseLearner
+   * https://primetzvan.github.io/LeoDatabaseLearner/projectproposal
 
 
 ## How to create gh-pages
