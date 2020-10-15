@@ -14,7 +14,8 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-https://primetzvan.github.io/LeoDatabaseLearner/projectproposal[*Projektauftrag*,role=black] +
+https://primetzvan.github.io/LeoDatabaseLearner/projectproposal[*Projectproposal*,role=black] +
+https://primetzvan.github.io/LeoDatabaseLearner/projektauftrag[*Projektauftrag*,role=black] +
 
 
 

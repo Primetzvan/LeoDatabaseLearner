@@ -83,12 +83,14 @@ End of May 2021
 == Project resources
 === Personnel:
 - Primetzhofer Vanessa (Project Manager)
+v.primetzhofer
 - Steigersdorf Marah
 - Turner Isabel
 - ( Donnabauer Christian )
 
 === Material:
 - Database
+- Server
 
 === Other expenses:
 - a lot of time
