@@ -27,6 +27,9 @@ endif::backend-html5[]
 == Projektbezeichnung
 LeoDataBaseLearner
 
+== Projektauftraggeber
+HTL Leonding - Professor Stütz
+
 == Problemstellung / Projektauslöser / Vorprojekt
 Schüler verlieren nach der Zeit den Überblick über den gelernten Stoff.
 
@@ -67,11 +70,10 @@ Der Lernfortschritt soll über einen Balken dokumentiert werden.
 - Lehrer können Übungen hochladen
 
 === Nichtfunktionale Anforderungen
-- Robustheit der Anwendung gegenüber Benutzeraktionen
-( BSP: Verweigerung von SQL-Injections des Benutzers)
+- Robustheit der Anwendung gegenüber Benutzerfehler
+( Beispiel: Verweigerung von SQL-Injections des Benutzers)
 - schnelle Rückmeldung des Systems
 - keine Überprüfung für zum Beispiel JDBC also für Projektanbindungen in Java, C++, C#
-- ChatBotanbindung
 
 == Projektziele
 
@@ -82,6 +84,9 @@ Auch für Lehrer soll es eine Erleichterung werden, da sie nicht mehr
 jedes Übungsbeispiel selbst erstellen müssen.
 
 Eine Einheitlichkeit des Gelernten besteht ebenso.
+
+== Projektrisiken
+- Datenbank stürzt ab
 
 == Projektphasen / Meilensteine
 - Technologien kennenlernen
