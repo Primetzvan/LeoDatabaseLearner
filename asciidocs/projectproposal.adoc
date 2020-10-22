@@ -58,7 +58,9 @@ It should also be a relief for teachers, as they no longer have to create each e
 There is also a uniformity of what has been learned.
 
 == Project risks
-
+- Database crashes
+- Misunderstandings about requirements
+- System failures
 
 == Project phases / Milestones
 - get to know technologies

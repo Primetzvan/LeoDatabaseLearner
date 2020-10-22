@@ -87,6 +87,8 @@ Eine Einheitlichkeit des Gelernten besteht ebenso.
 
 == Projektrisiken
 - Datenbank stürzt ab
+- Missverständnisse bei Anforderungen
+- Systemausfälle
 
 == Projektphasen / Meilensteine
 - Technologien kennenlernen
