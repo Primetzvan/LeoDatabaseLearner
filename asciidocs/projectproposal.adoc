@@ -61,6 +61,7 @@ There is also a uniformity of what has been learned.
 - Database crashes
 - Misunderstandings about requirements
 - System failures
+- Communication difficulties
 
 == Project phases / Milestones
 - get to know technologies
@@ -74,7 +75,7 @@ There is also a uniformity of what has been learned.
 2.10.2020
 
 == Project end
-End of May 2021
+December 2021/January 2022
 
 == Project resources
 === Personnel:

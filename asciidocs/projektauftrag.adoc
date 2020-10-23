@@ -89,6 +89,7 @@ Eine Einheitlichkeit des Gelernten besteht ebenso.
 - Datenbank stürzt ab
 - Missverständnisse bei Anforderungen
 - Systemausfälle
+- Kommunikationsschwierigkeiten
 
 == Projektphasen / Meilensteine
 - Technologien kennenlernen
@@ -105,7 +106,7 @@ Eine Einheitlichkeit des Gelernten besteht ebenso.
 
 == Projektende
 
-Ende Mai 2021
+Dezember 2021/Jänner 2022
 
 == Projektressourcen
 
