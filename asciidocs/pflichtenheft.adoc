@@ -1,6 +1,6 @@
-= My Project
-firstname lastname
-1.1.0, yyyy-mm-dd: Some notes
+= LeoDatabaseLearner - Pflichtenheft
+19SM, 22TI, 15PV
+1.1.0, 2020-10-23: Some notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -16,14 +16,28 @@ ifndef::imagesdir[:imagesdir: images]
 
 === Ausgangssituation
 
-Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, ....
 
 === Istzustand
 ----
-Beschreibung der speziellen Situation zB in der Abteilung
 ----
 === Problemstellung
+
 === Aufgabenstellung
+Erstellung eines Softwareproduktes für Schüler und Lehrer der HTL Leonding.
+Das System besteht aus 3 Funktionen.
+Schüler können daraus wählen, ob sie coden üben, lernen oder ob sie geprüft werden wollen.
+
+Die Prüfungsaufgaben können von Lehrer/innen mit Hilfe des Systems erstellt werden.
+Anschließend soll eine Auswertung der Aufgaben erfolgen.
+
+Bezüglich des Layouts sollen 3 Module zu sehen sein:
+
+* Text/Angabe
+* Coding
+* Auswertung
+
+Der Lernfortschritt soll über einen Balken dokumentiert werden.
+
 ==== Funktionale Anforderungen
 
 [plantuml]
@@ -34,13 +48,13 @@ actor Student as s
 actor Teacher as t
 
 package LeoDatabaseLearner {
-  usecase "practice SQL" as UC1
-  usecase "take simulated exam" as UC2
-  usecase "view knowledge level" as UC3
-  usecase "execute exam" as UC4
-  usecase "take exam" as UC5
-  usecase "upload exercises/tests" as UC6
-  usecase "view knowledge of students" as UC7
+  usecase "Aufgaben üben" as UC1
+  usecase "simulierte Prüfung absolvieren" as UC2
+  usecase "Wissensstand einsehen" as UC3
+  usecase "Prüfung freigeben" as UC4
+  usecase "Prüfung absolvieren" as UC5
+  usecase "Übungen / Tests hochladen" as UC6
+  usecase "Wissensstand der Schüler einsehen" as UC7
 }
 s --> UC1
 s --> UC2
@@ -53,21 +67,201 @@ t --> UC7
 @enduml
 ----
 
+- Aufgaben üben
+- simulierte Prüfung absolvieren
+- Prüfung absolvieren
+- Wissensstand einsehen
+
+
+- Übungen / Tests hochladen
+- Prüfung freigeben
+- Wissensstand der Schüler einsehen
+
+
+
+
+=== Use-Case 1: Aufgaben üben
+
+===== Charakterisierende Informationen Use-Case 1
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Aufgaben üben
+
+| Ziel des Use Cases:
+| Der Schüler lernt durch Übungen mit Datenbankbefehlen umzugehen.
+
+| Vorbedingung:
+| Aufgaben müssen bereits angelegt sein. Der Benutzer benötigt einen eigenen Account.
+
+| Beschreibung:
+a|
+* Aufgabenstellung wird angezeigt
+* Schüler gibt den Befehl ein
+* Programm überprüft auf Richtigkeit des Befehls
+** Wenn der Befehl korrekt ist -> nächste Aufgabe
+|===
+
+=== Use-Case 2: simulierte Prüfung absolvieren
+
+===== Charakterisierende Informationen Use-Case 2
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| simulierte Prüfung absolvieren
+
+| Ziel des Use Cases:
+|
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+=== Use-Case 3: Prüfung absolvieren
+
+===== Charakterisierende Informationen Use-Case 3
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Prüfung absolvieren
+
+| Ziel des Use Cases:
+|
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+=== Use-Case 4: Wissensstand einsehen
+
+===== Charakterisierende Informationen Use-Case 4
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Wissensstand einsehen
+
+| Ziel des Use Cases:
+|
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+
+=== Use-Case 5: Übungen / Tests hochladen
+
+===== Charakterisierende Informationen Use-Case 5
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Übungen / Tests hochladen
+
+| Ziel des Use Cases:
+| Übungen / Tests hochladen
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+
+=== Use-Case 6: Prüfung freigeben
+
+===== Charakterisierende Informationen Use-Case 6
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Prüfung freigeben
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+
+=== Use-Case 7: Wissensstand der Schüler einsehen
+
+===== Charakterisierende Informationen Use-Case 7
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Wissensstand der Schüler einsehen
+
+| Ziel des Use Cases:
+|
+
+| Vorbedingung:
+|
+
+| Beschreibung:
+a|
+* ...
+* ...
+
+|===
+
+
 ==== Nichtfunktionale Anforderungen (NFA)
+- Robustheit der Anwendung gegenüber Benutzerfehler
+( Beispiel: Verweigerung von SQL-Injections des Benutzers)
+- schnelle Rückmeldung des Systems
+- keine Überprüfung für zum Beispiel JDBC also für Projektanbindungen in Java, C++, C#
+
 === Ziele
+Schülern soll der Einstieg in die HTL erleichtert werden,
+indem sie eine solche Übungsplattform zur Verfügung gestellt bekommen.
+
+Auch für Lehrer soll es eine Erleichterung werden, da sie nicht mehr
+jedes Übungsbeispiel selbst erstellen müssen.
+
+Eine Einheitlichkeit des Gelernten besteht ebenso.
+
 === Mengengerüst
+
 === Rahmenbedingungen
 zB Vorgaben vom Auftraggeber
 
 == Entwurf "Wie mache ich es"
 === Systemarchitektur
-=== ...
 
 == Projekthandbuch "Organisatorische Rahmenbedingungen"
 
 === GANTT-Diagramm
-
-mit User-Stories (definiert in YouTrack)
 
 [plantuml,gantt-protoype,png]
 ----
