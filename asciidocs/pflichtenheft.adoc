@@ -267,13 +267,14 @@ a|
 - keine Überprüfung für zum Beispiel JDBC also für Projektanbindungen in Java, C++, C#
 
 === Ziele
-Schülern soll der Einstieg in die HTL erleichtert werden,
-indem sie eine solche Übungsplattform zur Verfügung gestellt bekommen.
-
-Auch für Lehrer soll es eine Erleichterung werden, da sie nicht mehr
-jedes Übungsbeispiel selbst erstellen müssen.
-
-Eine Einheitlichkeit des Gelernten besteht ebenso.
+- Quarkus lernen
+- Angular lernen
+- Backend programmieren -> grundlegende Architektur aufbauen
+- Backend programmieren -> Daten speichern(Aufgaben/Befehle)
+- Backend programmieren -> Befehle überprüfen
+- Backend programmieren -> Wissenstand speichern
+- Backend programmieren -> Wissenstand abrufen/auswerten
+- Frontend umsetzen
 
 === Mengengerüst
 
