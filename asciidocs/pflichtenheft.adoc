@@ -295,7 +295,10 @@ aktiv SQL lernen.
 * Um dies umzusetzten brauchen wir xy Datenbanken
 
 === Rahmenbedingungen
-zB Vorgaben vom Auftraggeber
+* Alles ist zu dockern
+* Quarkus als Backend
+* Angular als Frontend
+
 
 == Entwurf "Wie mache ich es"
 === Systemarchitektur
