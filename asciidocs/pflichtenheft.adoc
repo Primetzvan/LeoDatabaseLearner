@@ -310,12 +310,29 @@ aktiv SQL lernen.
 
 [plantuml,gantt-protoype,png]
 ----
-@startuml
-[Test prototype] lasts 10 days
-[Prototype completed] happens at [Test prototype]'s end
-[Setup assembly line] lasts 12 days
-[Setup assembly line] starts at [Test prototype]'s end
-[Test prototype 2] lasts 3 days
-[Test prototype 2] starts at [Prototype completed]'s end
-@enduml
+
+@startgantt
+Project starts 2020-10-02
+[Quarkus lernen] lasts 60 days
+[Angular lernen] lasts 60 days
+[Projektauftrag] lasts 14 days
+[Pflichtenheft] lasts 14 days
+[Backend, grundl. Struktur] lasts 30 days
+[Backend, Daten speichern] lasts 30 days
+[Backend, Befehle überprüfen] lasts 30 days
+[Backend, Wissensstand speichern] lasts 30 days
+[Backend, Wissensstand auswerten] lasts 30 days
+[Frontend] lasts 30 days
+
+[Pflichtenheft] starts at 2020-10-15
+[Backend, grundl. Struktur] starts at 2020-10-29
+[Backend, Daten speichern] starts at [Backend, grundl. Struktur]'s end
+[Backend, Befehle überprüfen] starts at [Backend, Daten speichern]'s end
+[Backend, Wissensstand speichern] starts at [Backend, Befehle überprüfen]'s end
+[Backend, Wissensstand auswerten] starts at [Backend, Wissensstand speichern]'s end
+[Frontend] starts at [Backend, Wissensstand auswerten]'s end
+@endgantt
+
+http://www.plantuml.com/plantuml/svg/XPE_JiD03CRtFCLjB1HTmX-9hLI86SJ0K36On4bAJcvb-uHujsvzCQ98HwLObouPyltyS_HPMOi2QmUaMXIllF_6MjtqJbpbAxyg_SfNnVOj0WzHN40cf4yNG4RYmRi6VgNOFb4N0t0kdiI3GcoLeKjnUPVYDkpgNf5wRDMa6wW7fERQTHof2JVkNJaE6ZcHjtvEFeCYEJdWg4McFBZ15lk0xdJyGZxmwTZY0lsn4q4IKQ3cajtm4EK7MT7oBxmd7GVcmRoOT1VG_zEKzulzs87gSQccCxzWlH8t1XTBj2wpqAXo3HjPPctMQ6vWZ8QrNvdkb1-sYzBmUdnCVzaV
+
 ----
