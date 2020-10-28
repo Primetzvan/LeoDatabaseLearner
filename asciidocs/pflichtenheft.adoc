@@ -168,12 +168,9 @@ a|
 | Ziel des Use Cases:
 | Schüler haben einen Überblick über den bereits gelernten Stoff.
 
-Lehrer können bei den einzelnen Schülern den jeweiligen Wissensstand abrufen, um den Überblick behalten zu können
 
 | Vorbedingung:
-|Dem Lehrer muss der Zugriff auf seine Schüler zugeteilt werden.
-
-Der Schüler muss seinen eigenen Account angelegt haben.
+| Der Schüler muss seinen eigenen Account angelegt haben.
 
 | Beschreibung:
 a|
@@ -216,13 +213,12 @@ a|
 | Prüfung freigeben
 
 | Vorbedingung:
-|
+| Die Prüfung muss bereits angelegt worden sein.
 
 | Beschreibung:
 a|
-* ...
-* ...
-
+* Bereits angelegte Prüfungen sind vorerst nicht sichbar für andere Personen außer dem Ersteller.
+Sie müssen extra freigegeben werden.
 |===
 
 
@@ -236,15 +232,14 @@ a|
 | Wissensstand der Schüler einsehen
 
 | Ziel des Use Cases:
-|
+| Lehrer können bei den einzelnen Schülern den jeweiligen Wissensstand abrufen, um den Überblick behalten zu können
 
 | Vorbedingung:
-|
+|Dem Lehrer muss der Zugriff auf seine Schüler zugeteilt werden.
 
 | Beschreibung:
 a|
-* ...
-* ...
+* Der Wissensstand der Schüler wird grafisch dargestellt.
 
 |===
 
