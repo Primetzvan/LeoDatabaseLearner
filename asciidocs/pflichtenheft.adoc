@@ -113,15 +113,20 @@ a|
 | simulierte Prüfung absolvieren
 
 | Ziel des Use Cases:
-|
+| Der Schüler kann seinen Wissensstand überprüfen
 
 | Vorbedingung:
-|
+| Die vorherigen Übungen müssen bereits vom Schüler absolviert worden sein.
+Die Prüfung muss bereits erstellt worden sein.
 
 | Beschreibung:
 a|
-* ...
-* ...
+* Aufgabenstellung wird angezeigt
+* Schüler gibt den Befehl ein
+* Programm überprüft auf Richtigkeit des Befehls
+** Wenn der Befehl korrekt ist -> nächste Aufgabe
+* Während der Prüfung kann er nicht auf vorherige Übungen zugreifen
+
 
 |===
 
@@ -135,15 +140,19 @@ a|
 | Prüfung absolvieren
 
 | Ziel des Use Cases:
-|
+| Der Lehrer kann den Wissensstand des Schülers überprüfen
 
 | Vorbedingung:
-|
+| Eine Prüfung muss bereits erstellt worden sein
 
 | Beschreibung:
 a|
-* ...
-* ...
+* Aufgabenstellung wird angezeigt
+* Schüler gibt den Befehl ein
+* Programm überprüft auf Richtigkeit des Befehls
+** Wenn der Befehl korrekt ist -> nächste Aufgabe
+** Wenn der Befehl 3mal falsch ist -> Möglichkeit diese Aufgabe zu überspringen (keine Punkte)
+* Während der Prüfung kann er nicht auf vorherige Übungen zugreifen
 
 |===
 
@@ -157,15 +166,18 @@ a|
 | Wissensstand einsehen
 
 | Ziel des Use Cases:
-|
+| Schüler haben einen Überblick über den bereits gelernten Stoff.
+
+Lehrer können bei den einzelnen Schülern den jeweiligen Wissensstand abrufen, um den Überblick behalten zu können
 
 | Vorbedingung:
-|
+|Dem Lehrer muss der Zugriff auf seine Schüler zugeteilt werden.
+
+Der Schüler muss seinen eigenen Account angelegt haben.
 
 | Beschreibung:
 a|
-* ...
-* ...
+* Der aktuelle Wissensstand wird grafisch dargestellt.
 
 |===
 
@@ -180,15 +192,16 @@ a|
 | Übungen / Tests hochladen
 
 | Ziel des Use Cases:
-| Übungen / Tests hochladen
+| Die Übungen werden in der Datenbank bereitgestellt, damit sie Schüler absolvieren können.
 
 | Vorbedingung:
-|
+| Die Übungen müssen vorerst lokal erstellt worden sein.
 
 | Beschreibung:
 a|
-* ...
-* ...
+* Der Lehrer tippt die Aufgabenstellung sowie den dazu passenden Befehl ein.
+* Dieser Vorgang wird solange wiederholt, bis er die Anzahl der Aufgaben erreicht hat, die der Lehrer in diesem
+Übungsset zur Verfügung stellen möchte.
 
 |===
 
