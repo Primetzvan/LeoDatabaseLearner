@@ -15,11 +15,16 @@ ifndef::imagesdir[:imagesdir: images]
 
 
 === Ausgangssituation
-
+Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1400 Schülern und den Fachabteilungen
+Medientechnik, Informatik, Elektronik und Medizintechnik
 
 === Istzustand
-----
-----
+Es gibt schon verschiedene Übungstool die im Internet zu finden sind. Diese sind jedoch meist
+statisch und man kann nur die bestehenden Übungen lernen. Außerdem ist der Überblick
+über den Wissenstand nicht sehr übersichtlich. Außerdem muss man oftmals für diese
+Tools bezahlen um sie nutzen zu können.
+
+
 === Problemstellung
 Schüler verlieren nach der Zeit den Überblick über den gelernten Stoff.
 

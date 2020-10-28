@@ -1,0 +1,82 @@
+= LeoDatabaseLearner - System Specification
+19SM, 22TI, 15PV
+1.1.0, 2020-10-23: Some notes
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Pflichtenheft "Was mache ich"
+
+
+=== Ausgangssituation
+
+Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, ....
+
+=== Istzustand
+----
+Beschreibung der speziellen Situation zB in der Abteilung
+----
+=== Problemstellung
+=== Aufgabenstellung
+==== Funktionale Anforderungen
+
+[plantuml]
+----
+@startuml
+left to right direction
+actor Student as s
+actor Teacher as t
+
+package LeoDatabaseLearner {
+  usecase "practice SQL" as UC1
+  usecase "take simulated exam" as UC2
+  usecase "view knowledge level" as UC3
+  usecase "execute exam" as UC4
+  usecase "take exam" as UC5
+  usecase "upload exercises/tests" as UC6
+  usecase "view knowledge of students" as UC7
+}
+s --> UC1
+s --> UC2
+s --> UC3
+s --> UC5
+
+t --> UC4
+t --> UC6
+t --> UC7
+@enduml
+----
+
+==== Nichtfunktionale Anforderungen (NFA)
+=== Ziele
+=== Mengengerüst
+=== Rahmenbedingungen
+zB Vorgaben vom Auftraggeber
+
+== Entwurf "Wie mache ich es"
+=== Systemarchitektur
+=== ...
+
+== Projekthandbuch "Organisatorische Rahmenbedingungen"
+
+=== GANTT-Diagramm
+
+mit User-Stories (definiert in YouTrack)
+
+[plantuml,gantt-protoype,png]
+----
+@startuml
+[Test prototype] lasts 10 days
+[Prototype completed] happens at [Test prototype]'s end
+[Setup assembly line] lasts 12 days
+[Setup assembly line] starts at [Test prototype]'s end
+[Test prototype 2] lasts 3 days
+[Test prototype 2] starts at [Prototype completed]'s end
+@enduml
+----
