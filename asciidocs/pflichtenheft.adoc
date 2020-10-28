@@ -299,11 +299,12 @@ aktiv SQL lernen.
 * Quarkus als Backend
 * Angular als Frontend
 
+== Systemarchitektur
 
-== Entwurf "Wie mache ich es"
-=== Systemarchitektur
-
-== Projekthandbuch "Organisatorische Rahmenbedingungen"
+=== Team
+- 15PV
+- 19SM
+- 22TI
 
 === GANTT-Diagramm
 
