@@ -278,6 +278,17 @@ a|
 - Man kann sich auf das Lernen von SQL konzentrieren, bürokratische Aufgaben fallen weg
 - Übungsbeispiele für den Test sind bereits bekannt
 
+== Projektphasen
+- Quarkus lernen
+- Angular lernen
+- Backend programmieren -> grundlegende Architektur aufbauen
+- Backend programmieren -> Daten speichern(Aufgaben/Befehle)
+- Backend programmieren -> Befehle überprüfen
+- Backend programmieren -> Wissenstand speichern
+- Backend programmieren -> Wissenstand abrufen/auswerten
+- Frontend umsetzen
+
+
 === Mengengerüst
 
 === Rahmenbedingungen
