@@ -21,6 +21,17 @@ ifndef::imagesdir[:imagesdir: images]
 ----
 ----
 === Problemstellung
+Schüler verlieren nach der Zeit den Überblick über den gelernten Stoff.
+
+Der Lehrer muss bei einem Test die SQL-Befehle der Schüler einzeln auf
+die Korrektheit überprüfen, da grundsätzlich mehrere Lösungsansätze
+möglich sind.
+
+Schüler bitten Lehrer ständig neue Übungen zur Verfügung zu stellen,
+dies ist jedoch für die Lehrer aus Zeitgründen meist nicht möglich.
+
+Auch das Überprüfen der einzelnen SQL-Statements ist für die Lehrer mit
+hohem Arbeitsaufwand verbunden.
 
 === Aufgabenstellung
 Erstellung eines Softwareproduktes für Schüler und Lehrer der HTL Leonding.
