@@ -32,17 +32,11 @@ Tools bezahlen um sie nutzen zu können.
 
 
 === Problemstellung
-Schüler verlieren nach der Zeit den Überblick über den gelernten Stoff.
+Neben den von den Lehrkräften zur Verfügung gestellten Aufgaben ist es für die Schüler
+vorteilhaft sich mit zusätzlichen Aufgaben auf die Leistungsfeststellungen vorbereiten
+zu können.
 
-Der Lehrer muss bei einem Test die SQL-Befehle der Schüler einzeln auf
-die Korrektheit überprüfen, da grundsätzlich mehrere Lösungsansätze
-möglich sind.
-
-Schüler bitten Lehrer ständig neue Übungen zur Verfügung zu stellen,
-dies ist jedoch für die Lehrer aus Zeitgründen meist nicht möglich.
-
-Auch das Überprüfen der einzelnen SQL-Statements ist für die Lehrer mit
-hohem Arbeitsaufwand verbunden.
+Die Lehrkräfte stellen oft Zusatzbeispiele zur Verfügung, teilweise jedoch ohne Lösungen.
 
 === Aufgabenstellung
 Erstellung eines Softwareproduktes für Schüler und Lehrer der HTL Leonding.
