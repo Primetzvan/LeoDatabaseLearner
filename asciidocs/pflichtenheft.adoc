@@ -271,14 +271,12 @@ a|
 - keine Überprüfung für zum Beispiel JDBC also für Projektanbindungen in Java, C++, C#
 
 === Ziele
-- Quarkus lernen
-- Angular lernen
-- Backend programmieren -> grundlegende Architektur aufbauen
-- Backend programmieren -> Daten speichern(Aufgaben/Befehle)
-- Backend programmieren -> Befehle überprüfen
-- Backend programmieren -> Wissenstand speichern
-- Backend programmieren -> Wissenstand abrufen/auswerten
-- Frontend umsetzen
+- Verbessern des Lernerfolgs, da der Schüler sofort Rückmeldung erhält, ob das Beispiel korrekt ist
+- Den Schülern stehen viele Aufgaben zur Verfügung
+** Die Lehrer brauchen keine extra Beispiele vorbereiten
+** Die Schüler müssen die Lehrer nicht um neue Aufgaben fragen
+- Man kann sich auf das Lernen von SQL konzentrieren, bürokratische Aufgaben fallen weg
+- Übungsbeispiele für den Test sind bereits bekannt
 
 === Mengengerüst
 
