@@ -40,19 +40,23 @@ Die Lehrkräfte stellen oft Zusatzbeispiele zur Verfügung, teilweise jedoch ohn
 
 === Aufgabenstellung
 Erstellung eines Softwareproduktes für Schüler und Lehrer der HTL Leonding.
-Das System besteht aus 3 Funktionen.
-Schüler können daraus wählen, ob sie coden üben, lernen oder ob sie geprüft werden wollen.
+Das System besteht aus 4 Funktionen:
+
+* Übungsmodus
+* Lernmodus(nach Lernkartensystem, aus einer Menge von Aufgaben werden die nicht korrekten Beispiele wiederholt)
+* Prüfungsmodus - Schüler (simulierte Prüfung)
+* Prüfungsmodus - Lehrer (bewertete Leistungsfeststellung)
 
 Die Prüfungsaufgaben können von Lehrer/innen mit Hilfe des Systems erstellt werden.
-Anschließend soll eine Auswertung der Aufgaben erfolgen.
+Anschließend erfolgt eine Auswertung der Aufgaben.
 
-Bezüglich des Layouts sollen 3 Module zu sehen sein:
+Die GUI wird grundsätzlich in 3 Bereiche unterteilt:
 
-* Text/Angabe
-* Coding
-* Auswertung
+* Text/Angabe (grafische Darstellung des Datenmodells)
+* Vom Schüler einzugebendes SQL-Statement
+* Feedback
 
-Der Lernfortschritt soll über einen Balken dokumentiert werden.
+Der Lernfortschritt soll grafisch dokumentiert werden.
 
 ==== Funktionale Anforderungen
 
