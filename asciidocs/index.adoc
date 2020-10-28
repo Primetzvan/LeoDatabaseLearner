@@ -8,14 +8,24 @@ ifndef::imagesdir[:imagesdir: images]
 :sectnums:    // Nummerierung der Überschriften / section numbering
 :toc: left
 
-//Need this blank line after ifdef, don't know why...
-ifdef::backend-html5[]
+== Project Description
 
-// print the toc here (not at the default position)
-//toc::[]
+// Short Desciption of your Project
+Practice tool to learn database commands and to check your level of knowledge.
+
+== Team
+
+// <catalog-number><first letter of lastname><first letter of first name>
+// ie
+
+* 15PV
+* 19SM
+* 22TI
+
+== Documents
 
 https://primetzvan.github.io/LeoDatabaseLearner/projectproposal[*Projectproposal*,role=black] +
 https://primetzvan.github.io/LeoDatabaseLearner/projektauftrag[*Projektauftrag*,role=black] +
-
-
+https://primetzvan.github.io/LeoDatabaseLearner/systemspecification[*Systemspecification*,role=black] +
+https://primetzvan.github.io/LeoDatabaseLearner/pflichtenheft[*Pflichtenheft*,role=black] +
 
