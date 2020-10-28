@@ -16,7 +16,9 @@ ifndef::imagesdir[:imagesdir: images]
 
 === Ausgangssituation
 Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1400 Schülern und den Fachabteilungen
-Medientechnik, Informatik, Elektronik und Medizintechnik
+Medientechnik, Informatik, Elektronik und Medizintechnik. Im Stoffumfang der Abteilungen Informatik
+und Medientechnik wird der Gegenstand Datenbanken(DBI/INSY) gelehrt. Ein wesentlicher Bestandteil
+dieses Unterrichts ist die praktische Ausbildung der Datenbankabfragesprache SQL.
 
 === Istzustand
 Es gibt schon verschiedene Übungstool die im Internet zu finden sind. Diese sind jedoch meist
