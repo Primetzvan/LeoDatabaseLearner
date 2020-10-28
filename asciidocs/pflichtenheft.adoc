@@ -21,6 +21,10 @@ und Medientechnik wird der Gegenstand Datenbanken(DBI/INSY) gelehrt. Ein wesentl
 dieses Unterrichts ist die praktische Ausbildung der Datenbankabfragesprache SQL.
 
 === Istzustand
+An der HTL Leonding steht den Schülern eine Oracle Datenbank zur Verfügung, um mit
+einer Datenbank arbeiten zu können. Der Lehrer stellt Übungen zur Verfügung die die Schüler
+ausführen.
+
 Es gibt schon verschiedene Übungstool die im Internet zu finden sind. Diese sind jedoch meist
 statisch und man kann nur die bestehenden Übungen lernen. Außerdem ist der Überblick
 über den Wissenstand nicht sehr übersichtlich. Außerdem muss man oftmals für diese
