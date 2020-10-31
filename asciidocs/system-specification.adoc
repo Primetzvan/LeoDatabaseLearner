@@ -22,10 +22,15 @@ and media technology, the subject of databases (DBI / INSY) is taught.
 An essential part of this course is the practical training in the database query language SQL.
 
 
-=== Istzustand
-----
-Beschreibung der speziellen Situation zB in der Abteilung
-----
+=== Present situation
+
+At the HTL Leonding an Oracle database is available to the students in order to be able to work with a database.
+The teacher provides exercises for the students to perform.
+There are already various exercise tools that can be found on the Internet.
+However, these are mostly static and you can only learn the existing exercises.
+In addition, the overview of the level of knowledge is not very clear. Also, you often have to pay for these tools to
+use them.
+
 === Problemstellung
 === Aufgabenstellung
 ==== Funktionale Anforderungen
