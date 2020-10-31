@@ -14,9 +14,13 @@ ifndef::imagesdir[:imagesdir: images]
 == Pflichtenheft "Was mache ich"
 
 
-=== Ausgangssituation
+=== Initial situation
 
-Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, ....
+The HTL Leonding is an HTL in Upper Austria. Central room with around 1400 students and the specialist departments
+Media technology, IT, electronics and medical technology.In the scope of the IT departments
+and media technology, the subject of databases (DBI / INSY) is taught.
+An essential part of this course is the practical training in the database query language SQL.
+
 
 === Istzustand
 ----

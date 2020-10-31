@@ -13,7 +13,6 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Pflichtenheft "Was mache ich"
 
-
 === Ausgangssituation
 Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1400 Schülern und den Fachabteilungen
 Medientechnik, Informatik, Elektronik und Medizintechnik. Im Stoffumfang der Abteilungen Informatik
