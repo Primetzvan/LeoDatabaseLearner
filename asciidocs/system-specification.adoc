@@ -245,8 +245,12 @@ a|
 |===
 
 
+==== Non-functional requirements (NFA)
+- Robustness of the application against user errors
+(Example: Refusal of SQL injections by the user)
+- quick feedback from the system
+- no check for e.g. JDBC so for project connections in Java, C ++, C
 
-==== Nichtfunktionale Anforderungen (NFA)
 === Ziele
 === Mengengerüst
 === Rahmenbedingungen
