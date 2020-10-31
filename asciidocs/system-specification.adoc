@@ -251,7 +251,14 @@ a|
 - quick feedback from the system
 - no check for e.g. JDBC so for project connections in Java, C ++, C
 
-=== Ziele
+=== Goals
+- Improve learning success because the student receives immediate feedback as to whether the example is correct
+- There are many tasks available to students
+** The teachers do not need to prepare extra examples
+** Students do not need to ask teachers for new assignments
+- You can concentrate on learning SQL, bureaucratic tasks are eliminated
+- Practice examples for the test are already known
+
 === Mengengerüst
 === Rahmenbedingungen
 zB Vorgaben vom Auftraggeber
