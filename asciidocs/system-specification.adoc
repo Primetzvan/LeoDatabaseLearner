@@ -94,7 +94,155 @@ t --> UC7
 - execute exam
 - view knowledge of students
 
+=== Use case 1: practice tasks
+==== Characterizing information Use case 1:
+[cols=2]
+|===
+| Superordinate elementary business process:
+| Practice tasks
 
+| Aim of the use case:
+| The student learns to use database commands through exercises.
+
+| Precondition:
+| Tasks must already have been created. The user needs his own account.
+| Description:
+a|
+* Task is displayed
+* Student enters the command
+* The program checks the correctness of the command
+** If the command is correct -> next task
+
+
+|===
+=== Use case 2: taking a simulated exam
+==== Characterizing information use case 2
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| take a simulated exam
+
+| Aim of the use case:
+| The student can check his level of knowledge
+
+| Precondition:
+| The student must have already completed the previous exercises.
+The test must have already been created.
+
+| Description:
+a|
+* Task is displayed
+* Student enters the command
+* The program checks the correctness of the command
+** If the command is correct -> next task
+* He cannot access previous exercises during the exam
+
+
+|===
+
+=== Use case 3: Take the exam
+==== Characterizing information use case 3
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| Take the exam
+
+| Aim of the use case:
+| The teacher can check the student's level of knowledge
+
+| Precondition:
+| A test must already have been created
+
+| Description:
+a|
+* Task is displayed
+* Student enters the command
+* The program checks the correctness of the command
+** If the command is correct -> next task
+** If the command is wrong 3 times -> possibility to skip this task (no points)
+* He cannot access previous exercises during the exam
+
+|===
+=== Use case 4: View the state of knowledge
+==== Characterizing information use case 4
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| View knowledge level
+
+| Aim of the use case:
+| Students have an overview of the material they have already learned.
+
+
+| Precondition:
+| The student must have created his own account.
+
+| Description:
+a|
+* The current level of knowledge is shown graphically.
+
+
+|===
+=== Use case 5: Upload exercises / tests
+==== Characterizing information use case 5
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| Upload exercises / tests
+
+| Aim of the use case:
+| The exercises are made available in the database for students to complete.
+
+| Precondition:
+| The exercises must first have been created locally.
+
+| Description:
+a|
+* The teacher types in the task and the corresponding command.
+* This process is repeated until it has reached the number of tasks that the teacher would like to include in this exercise set.
+
+|===
+
+=== Use Case 6: Approve Exam
+==== Characterizing information use case 6
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| Approve examination
+
+| Precondition:
+| The test must already have been created.
+
+| Description:
+a|
+* Exams that have already been created are initially not visible to anyone other than the creator.
+They have to be released separately.
+
+
+|===
+=== Use case 7: View the students' level of knowledge
+==== Characterizing information use case 7
+
+[cols = 2]
+|===
+| Superordinate elementary business process:
+| View the students' level of knowledge
+
+| Aim of the use case:
+| Teachers can call up the respective level of knowledge of the individual students in order to be able to keep an overview
+
+| Precondition:
+| The teacher must be given access to his students.
+
+| Description:
+a|
+* The level of knowledge of the students is shown graphically.
+|===
 
 
 
