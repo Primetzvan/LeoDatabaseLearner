@@ -259,6 +259,17 @@ a|
 - You can concentrate on learning SQL, bureaucratic tasks are eliminated
 - Practice examples for the test are already known
 
+=== project phases
+- Learn quarkus
+- Learn Angular
+- Program the backend -> build the basic architecture
+- program backend -> save data (tasks / commands)
+- Program the backend -> check commands
+- Program the backend -> save knowledge
+- Program the backend -> call up / evaluate knowledge
+- Implement frontend
+
+
 === Mengengerüst
 === Rahmenbedingungen
 zB Vorgaben vom Auftraggeber
