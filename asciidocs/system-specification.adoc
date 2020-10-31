@@ -269,16 +269,23 @@ a|
 - Program the backend -> call up / evaluate knowledge
 - Implement frontend
 
+=== Quantity structure
+* There are currently around 1400 students attending the HTL Leonding, with around 450 students
+actively learn SQL.
+* To implement this we need xy databases
 
-=== Mengengerüst
-=== Rahmenbedingungen
-zB Vorgaben vom Auftraggeber
+=== Framework conditions
+* Everything has to be docker
+* Quarkus as a backend
+* Angular as a front end
 
-== Entwurf "Wie mache ich es"
-=== Systemarchitektur
-=== ...
+== System architecture
 
-== Projekthandbuch "Organisatorische Rahmenbedingungen"
+=== Team
+- 15PV
+- 19SM
+- 22TI
+
 
 === GANTT-Diagramm
 
