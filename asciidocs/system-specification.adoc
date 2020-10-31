@@ -37,7 +37,26 @@ In addition to the tasks provided by the teachers, it is advantageous for the st
 exams with additional tasks.
 The teachers often provide additional examples, but sometimes without solutions.
 
-=== Aufgabenstellung
+=== Task
+Creation of a software product for students and teachers at the HTL Leonding.
+The system consists of 4 functions:
+
+* Practice mode
+* Learning mode (according to the learning card system, the incorrect examples are repeated from a set of tasks)
+* Exam mode - student (simulated exam)
+* Exam mode - teacher (assessed performance assessment)
+
+The exam tasks can be created by teachers using the system.
+The tasks are then evaluated.
+
+The GUI is basically divided into 3 areas:
+
+* Text / information (graphic representation of the data model)
+* SQL statement to be entered by the student
+* Feedback
+
+The learning progress should be documented graphically.
+
 ==== Funktionale Anforderungen
 
 [plantuml]
