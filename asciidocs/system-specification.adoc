@@ -314,3 +314,5 @@ Project starts 2020-10-02
 [Frontend] starts at [Backend, Wissensstand auswerten]'s end
 @endgantt
 ----
+
+http://www.plantuml.com/plantuml/svg/XPE_JiD03CRtFCLjB1HTmX-9hLI86SJ0K36On4bAJcvb-uHujsvzCQ98HwLObouPyltyS_HPMOi2QmUaMXIllF_6MjtqJbpbAxyg_SfNnVOj0WzHN40cf4yNG4RYmRi6VgNOFb4N0t0kdiI3GcoLeKjnUPVYDkpgNf5wRDMa6wW7fERQTHof2JVkNJaE6ZcHjtvEFeCYEJdWg4McFBZ15lk0xdJyGZxmwTZY0lsn4q4IKQ3cajtm4EK7MT7oBxmd7GVcmRoOT1VG_zEKzulzs87gSQccCxzWlH8t1XTBj2wpqAXo3HjPPctMQ6vWZ8QrNvdkb1-sYzBmUdnCVzaV[*GANTT-Diagramm*,role=black] +

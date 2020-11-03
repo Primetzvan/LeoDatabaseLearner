@@ -3,7 +3,8 @@
 * https://github.com/Primetzvan/LeoDatabaseLearner
 * gh-pages  
    * https://primetzvan.github.io/LeoDatabaseLearner
-   * https://primetzvan.github.io/LeoDatabaseLearner/projectproposal
+   * https://primetzvan.github.io/LeoDatabaseLearner/project-proposal
+   * https://primetzvan.github.io/LeoDatabaseLearner/system-specification
 
 
 ## How to create gh-pages
