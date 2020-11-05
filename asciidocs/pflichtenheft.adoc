@@ -291,7 +291,7 @@ a|
 === Mengengerüst
 * Es besuchen derzeit rund 1400 Schüler die HTL Leonding wobei in etwa 450 Schüler
 aktiv SQL lernen.
-* Um dies umzusetzten brauchen wir xy Datenbanken
+* Um dies umzusetzen brauchen wir eine Datenbank
 
 === Rahmenbedingungen
 * Alles ist zu dockern

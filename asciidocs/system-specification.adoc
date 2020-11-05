@@ -272,7 +272,7 @@ a|
 === Quantity structure
 * There are currently around 1400 students attending the HTL Leonding, with around 450 students
 actively learn SQL.
-* To implement this we need xy databases
+* To implement this we need one database
 
 === Framework conditions
 * Everything has to be docker
